@@ -78,7 +78,7 @@ if bool(SAVE_THIS_MODEL.get()):
     model.compile(optimizer='adam', 
               loss='sparse_categorical_crossentropy', 
               metrics=['accuracy'])
-    model.fit(x=x_train,y=y_train, epochs=n_epochs,verbose=0)
+    model.fit(x=x_train,y=y_train, epochs=n_epochs,verbose=2)
     print(model.evaluate(x_test, y_test))
 
     #serialize model to JSON
