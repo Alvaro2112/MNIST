@@ -17,13 +17,13 @@ A new window will appear where you can chose to start predicting new numbers as 
 
 
 
-![alt text](https://raw.githubusercontent.com/Alvaro2112/MNIST/master/start.png)
+![alt text](https://raw.githubusercontent.com/Alvaro2112/MNIST/master/final.png)
 
 If however you decide to train a new model you will need to decide how many epochs you wish to use to train the model, for that, a new window will appear.
 
 
 
-![alt text](https://raw.githubusercontent.com/Alvaro2112/MNIST/master/start.png)
+![alt text](https://raw.githubusercontent.com/Alvaro2112/MNIST/master/epoch.png)
 
 
 
