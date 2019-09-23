@@ -29,6 +29,7 @@ app.mainloop()
 
 if SAVE_THIS_MODEL.get():
     app = tk.Tk() 
+    app.withdraw()
     app.geometry('150x100')
     n_epochs = tk.IntVar() 
     n_epochs = tksipledialog.askinteger(app,"How many epochs?", minvalue=1)
