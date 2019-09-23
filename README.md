@@ -8,7 +8,7 @@ Simply compile the code, you will be then given the choice to either Save a new 
 
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/start.png)
+                ![alt text](https://raw.githubusercontent.com/Alvaro2112/MNIST/master/start.png)
 
 
 If you chose to not train a new model the previously saved model will be imediatly compiled so that you can test it for your-self.
