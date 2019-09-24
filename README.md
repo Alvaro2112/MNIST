@@ -33,7 +33,7 @@ After this you will once again be able to test the model.
 
 ## Efficiency
 
-For this model I have found that the best result is obtained using 10 epochs, but you are welcome to try it with other cases.
+For this model I have found that the best result is obtained using 10 epochs at aroud 0.985 accuracy, but you are welcome to try it with other cases.
 
 ## License
 
