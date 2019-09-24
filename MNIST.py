@@ -5,7 +5,6 @@ import tkinter as tk
 import random
 import tkinter.simpledialog as tksipledialog
 from tkinter import Checkbutton, Button
-#from tkinter.simpledialog import askinteger
 
 from keras.models import Sequential, model_from_json
 from keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D
@@ -45,9 +44,11 @@ LOAD_SAVED_MODEL = not SAVE_THIS_MODEL.get()
 x_train = x_train.reshape(x_train.shape[0], 28, 28, 1)
 x_test = x_test.reshape(x_test.shape[0], 28, 28, 1)
 input_shape = (28, 28, 1)
+
 # Making sure that the values are float so that we can get decimal points after division
 x_train = x_train.astype('float32')
 x_test = x_test.astype('float32')
+
 # Normalizing the RGB codes by dividing it to the max RGB value.
 x_train /= 255
 x_test /= 255
@@ -104,7 +105,7 @@ if bool(TEST_SET.get()):
     model.compile(optimizer='adam', 
               loss='sparse_categorical_crossentropy', 
               metrics=['accuracy'])
-    print(model.evaluate(x_test, y_test))
+    print(model.evaluate(x_test, y_test, verbose=1))
 
 
 
